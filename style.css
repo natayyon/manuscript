@@ -6,6 +6,7 @@ html{
 }
 body {
 	padding:3rem
+
 	}
 
 	...{
@@ -20,6 +21,7 @@ h1 {font-family:"Bebas Neue";
 
 h2 {font-size: 3.5rem;
 	font-family: "Bebas Neue";
+	text-align: center
 }
 
 a{ color:whitesmoke;
@@ -27,17 +29,16 @@ text-decoration:underline;
 }
 
 .highlight{
-	background-color: aqua;
+	background-color:pink;
 }
-
-.highlight1::first-letter {
-	color: red;
-	font-size: 3em;
+.highlight1{
+	color: black;
+	font-size: 7rem;
 	font-weight: bold;
 }
 
-.highlight1::second-letter {
-	color: red;
-	font-size: 3em;
-	font-weight: bold;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
