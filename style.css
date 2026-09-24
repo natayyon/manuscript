@@ -16,14 +16,10 @@ body {
 
 
 h1 {font-family:"Bebas Neue";
-	color:lightpink;
+	color:black;
 	font-size: 7rem;
 	line-height: 0.9em;
-	background-color: black;
-	padding-left: 1rem;
-	padding-top: 1rem;
-	padding-right: 1rem;
-	padding-bottom: 1rem;
+
 }
 
 h2 {font-size: 3.5rem;
@@ -32,18 +28,21 @@ h2 {font-size: 3.5rem;
 	text-align: center
 }
 
-a{ color:black;
+a{ color:rgb(127, 34, 124);
 text-decoration:underline;
 }
 
-p{line height: 7em;
+p{line-height: 1.5rem;
+	margin-bottom: 1rem;
 	}
 
 }
 
-.blockquote{
+.quote{
 	font-weight: bold;
+
 }
+
 .highlight{
 	background-color:lightpink;
 }
@@ -82,3 +81,30 @@ p{line height: 7em;
 	color: black;
 	font-size: 1em;
 	font-weight: bold;
+}
+
+.design{
+	font-family: "Bebas Neue";
+	font-size: 5rem;
+	color: black;
+	font-weight: lighter;
+}
+
+.obscures{
+	font-family: "Bebas Neue";
+	font-size: 6rem;
+	color: black;
+	font-weight: 700;
+}
+
+.complexity{
+	font-family: "Bebas Neue";
+	font-size: 9rem;
+	color: black;
+	font-weight: bolder;
+}
+
+#quote{
+	padding: 4rem;
+	font-style: italic;
+}
