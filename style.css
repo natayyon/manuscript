@@ -1,12 +1,30 @@
+html{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2rem;
+	background-color: pink;
+	line height: 1.4em;
+}
 body {
-	 color: tomato;
+	padding:3rem
 	}
 
-h1 {font-family: Verdana sans-serif;
-	font-size: 50px;
-	font-weight: bold;
-	-webkit-text-stroke: 2px black;
-	-webkit-text-fill-color: white;
+	...{
+		margin-block-start: 1rem;
+	}
 
+
+h1 {font-family:"Bebas Neue";
+	color:black;
+	font-size: 4rem;
 }
 
+h2 {font font-family: "Inter";
+}
+
+a{ color:whitesmoke;
+text-decoration:underline;
+}
+
+.highlight{
+	background-color: aqua;
+}
