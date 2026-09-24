@@ -1,10 +1,12 @@
 html{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.2rem;
-	background-color: pink;
-	line height: 1.4em;
+	font-size: 1.1rem;
+	background-color: black;
+	line height: 4em;
+
 }
 body {
+	color: lightpink;
 	padding:3rem
 
 	}
@@ -15,26 +17,55 @@ body {
 
 
 h1 {font-family:"Bebas Neue";
-	color:black;
-	font-size: 5rem;
+	color:lightpink;
+	font-size: 7rem;
+	line-height: 0.9em;
 }
 
 h2 {font-size: 3.5rem;
 	font-family: "Bebas Neue";
+	color: lightpink;
 	text-align: center
 }
 
-a{ color:whitesmoke;
+a{ color:lightpink;
 text-decoration:underline;
 }
 
+p{line height: 7em;
+	}
+
+}
+
+.blockquote{
+	font-weight: bold;
+}
 .highlight{
-	background-color:pink;
+	background-color:black;
 }
 .highlight1{
-	color: black;
+	color: lightpink;
 	font-size: 7rem;
 	font-weight: bold;
+}
+
+.highlight2{
+	font-size: 5rem;
+	text-align: right;
+	line-height: 0.9em;
+}
+
+.highlight3{
+	color:lightpink;
+	font-weight: 500;
+}
+
+.highlight4{
+	text-indent: 10rem
+	padding-left: 10rem;
+	font-weight: bold;
+	color:lightpink;
+
 }
 
 .center {
