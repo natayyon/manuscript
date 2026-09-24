@@ -15,10 +15,11 @@ body {
 
 h1 {font-family:"Bebas Neue";
 	color:black;
-	font-size: 4rem;
+	font-size: 5rem;
 }
 
-h2 {font font-family: "Inter";
+h2 {font-size: 3.5rem;
+	font-family: "Bebas Neue";
 }
 
 a{ color:whitesmoke;
@@ -27,4 +28,16 @@ text-decoration:underline;
 
 .highlight{
 	background-color: aqua;
+}
+
+.highlight1::first-letter {
+	color: red;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.highlight1::second-letter {
+	color: red;
+	font-size: 3em;
+	font-weight: bold;
 }
