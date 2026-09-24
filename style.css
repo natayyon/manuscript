@@ -1,14 +1,13 @@
 html{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.1rem;
-	background-color: black;
+	background-color: lightpink;
 	line height: 4em;
 
 }
 body {
-	color: lightpink;
+	color: black;
 	padding:3rem
-
 	}
 
 	...{
@@ -20,15 +19,20 @@ h1 {font-family:"Bebas Neue";
 	color:lightpink;
 	font-size: 7rem;
 	line-height: 0.9em;
+	background-color: black;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
 }
 
 h2 {font-size: 3.5rem;
 	font-family: "Bebas Neue";
-	color: lightpink;
+	color: black;
 	text-align: center
 }
 
-a{ color:lightpink;
+a{ color:black;
 text-decoration:underline;
 }
 
@@ -41,10 +45,10 @@ p{line height: 7em;
 	font-weight: bold;
 }
 .highlight{
-	background-color:black;
+	background-color:lightpink;
 }
 .highlight1{
-	color: lightpink;
+	color: black;
 	font-size: 7rem;
 	font-weight: bold;
 }
@@ -56,7 +60,7 @@ p{line height: 7em;
 }
 
 .highlight3{
-	color:lightpink;
+	color:black;
 	font-weight: 500;
 }
 
@@ -64,7 +68,7 @@ p{line height: 7em;
 	text-indent: 10rem
 	padding-left: 10rem;
 	font-weight: bold;
-	color:lightpink;
+	color: black;
 
 }
 
@@ -73,3 +77,8 @@ p{line height: 7em;
   justify-content: center;
   align-items: center;
 }
+
+.highlight5::first-letter {
+	color: black;
+	font-size: 1em;
+	font-weight: bold;
