@@ -13,8 +13,12 @@ html{
 
 	--font-body:Inter,Arial, Helvetica, sans-serif;
 	--font-display: var(--font-body);
-	--font-heading:'Bebas Neue'
+	--font-heading:'Bebas Neue';
 
+	--size-sm:1rem;
+	--size-shmd:2rem;
+	--size-md:3rem;
+	--size-lr:4rem;
 
 	/*font/color base*/
 	color:var(--color-base);
@@ -24,7 +28,7 @@ html{
 
 body {
 	color: var(--color-base);
-	padding:3rem
+	padding:var(--size-md);
 	}
 
 h1 {
@@ -65,20 +69,21 @@ p{line-height: 1.5rem;
 .highlight{
 	background-color:var(--color-bg);
 }
-.highlight1{
+.numbers{
 	color: var(--base-color);
 	font-size: 7rem;
 	font-weight: bold;
 }
 
-.highlight2{
+.title2{
 	font-size: 5rem;
 	text-align: right;
 	line-height: 0.9em;
 }
 
-.highlight3{
-color: var(--base-color);	font-weight: 500;
+.authortime{
+color: var(--base-color);
+font-weight: 500;
 }
 
 .highlight4{
