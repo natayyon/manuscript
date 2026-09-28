@@ -39,6 +39,12 @@ h2 {font-size: 2rem;
 	font-family: "Bebas Neue";
 	color: var(--color-base);
 	text-align: center;
+
+}
+
+h2 span{
+	display:block;
+
 }
 
 a{color:var(--color-accent);
@@ -49,7 +55,7 @@ p{line-height: 1.5rem;
 	margin-bottom: 1rem;
 	}
 
-}
+
 
 .quote{
 	font-weight: bold;
@@ -57,10 +63,10 @@ p{line-height: 1.5rem;
 }
 
 .highlight{
-	background-color:{var(--color-bg)};
+	background-color:var(--color-bg);
 }
 .highlight1{
-	color: {var(--base-color)};
+	color: var(--base-color);
 	font-size: 7rem;
 	font-weight: bold;
 }
@@ -72,14 +78,14 @@ p{line-height: 1.5rem;
 }
 
 .highlight3{
-color: {var(--base-color)};	font-weight: 500;
+color: var(--base-color);	font-weight: 500;
 }
 
 .highlight4{
 	text-indent: 10rem;
 	padding-left: 10rem;
 	font-weight: bold;
-	color: {var(--base-color)};
+	color: var(--base-color);
 }
 
 .center {
@@ -89,28 +95,28 @@ color: {var(--base-color)};	font-weight: 500;
 }
 
 .highlight5::first-letter {
-color: {var(--base-color)};	font-size: 1em;
+color: var(--base-color);	font-size: 1em;
 	font-weight: bold;
 }
 
 .design{
 	font-family: "Bebas Neue";
 	font-size: 5rem;
-	color:{var(--base-color)};
+	color:var(--base-color);
 	font-weight: lighter;
 }
 
 .obscures{
 	font-family: "Bebas Neue";
 	font-size: 6rem;
-	color:{var(--base-color)};
+	color:var(--base-color);
 	font-weight: 700;
 }
 
 .complexity{
 	font-family: "Bebas Neue";
 	font-size: 9rem;
-	color:{var(--base-color)};
+	color:var(--base-color);
 	font-weight: bolder;
 }
 
@@ -129,3 +135,14 @@ padding: 3rem
 strong {
 	font-weight:800;
 	color:var(--color-accent);}
+
+.bgcolor{
+	background-color: purple;
+	width:100%;
+
+}
+
+.response{
+	margin: 0;
+}
+
