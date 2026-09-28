@@ -5,30 +5,43 @@ html{
 	line height: 4em;
 
 }
+:root{
+	--color-base:black;
+	--color-brand:lightpink;
+	--color-accent:purple;
+	--color-bg:lightpink;
+
+	--font-body:Inter,Arial, Helvetica, sans-serif;
+	--font-display: var(--font-body);
+	--font-heading:'Bebas Neue'
+
+
+	/*font/color base*/
+	color:var(--color-base);
+	background-color:var(--color-bg);
+	font-family:var(--font-body);
+}
+
 body {
-	color: black;
+	color: var(--color-base);
 	padding:3rem
 	}
 
-	...{
-		margin-block-start: 1rem;
-	}
-
-
-h1 {font-family:"Bebas Neue";
-	color:black;
+h1 {
+	font-family:"Bebas Neue";
+	color:var(--color-base);
 	font-size: 7rem;
 	line-height: 0.9em;
 
 }
 
-h2 {font-size: 3.5rem;
+h2 {font-size: 2rem;
 	font-family: "Bebas Neue";
-	color: black;
-	text-align: center
+	color: var(--color-base);
+	text-align: center;
 }
 
-a{ color:rgb(127, 34, 124);
+a{color:var(--color-accent);
 text-decoration:underline;
 }
 
@@ -44,10 +57,10 @@ p{line-height: 1.5rem;
 }
 
 .highlight{
-	background-color:lightpink;
+	background-color:{var(--color-bg)};
 }
 .highlight1{
-	color: black;
+	color: {var(--base-color)};
 	font-size: 7rem;
 	font-weight: bold;
 }
@@ -59,16 +72,14 @@ p{line-height: 1.5rem;
 }
 
 .highlight3{
-	color:black;
-	font-weight: 500;
+color: {var(--base-color)};	font-weight: 500;
 }
 
 .highlight4{
-	text-indent: 10rem
+	text-indent: 10rem;
 	padding-left: 10rem;
 	font-weight: bold;
-	color: black;
-
+	color: {var(--base-color)};
 }
 
 .center {
@@ -78,29 +89,28 @@ p{line-height: 1.5rem;
 }
 
 .highlight5::first-letter {
-	color: black;
-	font-size: 1em;
+color: {var(--base-color)};	font-size: 1em;
 	font-weight: bold;
 }
 
 .design{
 	font-family: "Bebas Neue";
 	font-size: 5rem;
-	color: black;
+	color:{var(--base-color)};
 	font-weight: lighter;
 }
 
 .obscures{
 	font-family: "Bebas Neue";
 	font-size: 6rem;
-	color: black;
+	color:{var(--base-color)};
 	font-weight: 700;
 }
 
 .complexity{
 	font-family: "Bebas Neue";
 	font-size: 9rem;
-	color: black;
+	color:{var(--base-color)};
 	font-weight: bolder;
 }
 
@@ -118,5 +128,4 @@ padding: 3rem
 }
 strong {
 	font-weight:800;
-	color:purple;
-}
+	color:var(--color-accent);}
