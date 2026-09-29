@@ -18,7 +18,7 @@ html{
 	--size-sm:1rem;
 	--size-shmd:2rem;
 	--size-md:3rem;
-	--size-lr:4rem;
+	--size-lr:5rem;
 
 	/*font/color base*/
 	color:var(--color-base);
@@ -31,6 +31,16 @@ body {
 	padding:var(--size-md);
 	}
 
+section{
+	margin-block-start:var(--size-md) ;
+	max-inline-size: 100ch;
+}
+
+
+hgroup {
+	margin-block-end:var(--size-md);
+}
+
 h1 {
 	font-family:"Bebas Neue";
 	color:var(--color-base);
@@ -39,10 +49,12 @@ h1 {
 
 }
 
-h2 {font-size: 2rem;
+h2 {
+	font-size: 2rem;
 	font-family: "Bebas Neue";
 	color: var(--color-base);
 	text-align: center;
+	font-size:3.5rem;
 
 }
 
@@ -142,12 +154,18 @@ strong {
 	color:var(--color-accent);}
 
 .bgcolor{
-	background-color: purple;
+	background-color:var(--color-accent);
 	width:100%;
+	height: 100%;
 
 }
 
 .response{
 	margin: 0;
 }
+
+.position1{
+	text-align: right;
+}
+
 
