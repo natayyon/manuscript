@@ -2,7 +2,6 @@ html{
 	font-family: Inter,Arial, Helvetica, sans-serif;
 	font-size: 1.1rem;
 	background-color: lightpink;
-	line-height: 4em;
 	counter-reset:mycounter;
 }
 :root{
@@ -33,7 +32,10 @@ body {
 
 section{
 	margin-block-start:var(--size-md);
-	max-inline-size: 100ch;
+	max-inline-size: 90ch;
+	padding-inline-start:4rem;
+	padding-inline-end: 2rem;
+
 }
 
 
@@ -46,25 +48,26 @@ h1 {
 	color:var(--color-base);
 	font-size: 7rem;
 	line-height: 0.9em;
+	font-weight:500;
 
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 4rem;
 	font-family: "Bebas Neue";
 	color: var(--color-base);
 	text-align: center;
-	font-size:3.5rem;
 
 }
 
 h2::before{
-display: block;
-counter-increment: mycounter;
-content:"0"counter(mycounter);
-color: var(--base-color);
-font-size: 7rem;
-font-weight: bold;
+	display: block;
+	counter-increment: mycounter;
+	content:"0"counter(mycounter);
+	color: var(--base-color);
+	font-size: 7rem;
+	font-weight: bold;
+	padding-block-start: .5rem;
 }
 
 h2 span{
@@ -72,9 +75,22 @@ h2 span{
 
 }
 
-a{color:var(--color-accent);
-text-decoration:underline;
+li{
+	color:var(--color-base);
 }
+
+
+a{
+	text-decoration:underline;
+	color:var(--color-base);
+}
+
+a:hover{
+	font-weight:700;
+	color:var(--color-accent);
+
+}
+
 
 p{line-height: 1.5rem;
 	margin-bottom: 1rem;
@@ -104,7 +120,9 @@ p{line-height: 1.5rem;
 
 .authortime{
 color: var(--base-color);
-font-weight: 500;
+font-weight:450;
+margin-block-start:.5rem;
+margin-block-end:.5rem;
 }
 
 .highlight4{
@@ -147,35 +165,57 @@ color: var(--base-color);	font-size: 1em;
 }
 
 #quote{
-	padding: 4rem;
+	padding: 3rem;
 	font-style: italic;
 }
 
 .callout{
-font-family: Inter;
-font-size: 4rem;
-line-height: 1em;
-padding: 3rem
+	font-family: Inter;
+	font-size: 4rem;
+	line-height: 4rem;
+	padding: 3rem;
+	text-align:center;
 
 }
+
+.callout2{
+	color: var(--color-brand);
+	font-family: Inter;
+	font-size: 3rem;
+	line-height: 3rem;
+	padding: 3rem;
+	text-align:center;
+}
+
+strong:hover{
+	color:var(--color-accent);
+}
+
 strong {
 	font-weight:800;
-	color:var(--color-accent);}
+	color:var(--color-base);
+}
 
+
+em{
+	font-weight:800;
+
+}
 .bgcolor{
-	background-color:var(--color-accent);
-	width:100%;
-	height: 100%;
+	background-color:var(--color-base);
+	padding-block-start: 3rem;
+	padding-inline-end: 3rem;
+	padding-block-end: 1rem;
+	padding-inline-start: 3rem;
+}
 
+span{
+
+	line-height: 0.9em;
 }
 
 .response{
-	margin: 0;
-}
-
-.position1{
-	text-align: right;
-	list-style-type:none;
+	color: var(--color-brand);
 }
 
 
