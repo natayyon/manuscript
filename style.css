@@ -93,7 +93,6 @@ a:hover{
 
 }
 
-
 p{
 	line-height: 1.5rem;
 	margin-bottom: 1rem;
@@ -102,8 +101,9 @@ p{
 
 span{
 	display:block;
-	line-height: 1.5rem;
-	margin-bottom: 1rem;
+	line-height: 3rem;
+	margin-block: 1rem;
+	line-height: 0.9em;
 
 }
 .quote{
@@ -127,10 +127,10 @@ span{
 }
 
 .authortime{
-color: var(--base-color);
-font-weight:450;
-margin-block-start:.5rem;
-margin-block-end:.5rem;
+	color: var(--base-color);
+	font-weight:450;
+	margin-block-start:.5rem;
+	margin-block-end:.5rem;
 }
 
 .highlight4{
@@ -156,6 +156,7 @@ color: var(--base-color);	font-size: 1em;
 	font-size: 5rem;
 	color:var(--base-color);
 	font-weight: lighter;
+
 }
 
 .obscures{
@@ -223,10 +224,9 @@ em{
 	padding-inline-start: 3rem;
 }
 
-span{
-
+/* span{
 	line-height: 0.9em;
-}
+} */
 
 .response{
 	color: var(--color-brand);
