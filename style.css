@@ -19,6 +19,9 @@ html{
 	--size-md:3rem;
 	--size-lr:5rem;
 
+	--body-width:90ch;
+	--quote-width:calc(0.5 * var(--body-width));
+
 	/*font/color base*/
 	color:var(--color-base);
 	background-color:var(--color-bg);
@@ -32,9 +35,8 @@ body {
 
 section{
 	margin-block-start:var(--size-md);
-	max-inline-size: 90ch;
-	padding-inline-start:4rem;
-	padding-inline-end: 2rem;
+	max-inline-size:var(--body-width);
+	margin-inline:auto;
 
 }
 
@@ -181,9 +183,15 @@ color: var(--base-color);	font-size: 1em;
 	line-height: 4rem;
 	padding: 3rem;
 	text-align:center;
+	max-width: var(--quote-width);
+
 
 }
 
+.callout p{
+	max-width: var(--quote-width);
+
+}
 .callout2{
 	color: var(--color-brand);
 	font-family: Inter;
