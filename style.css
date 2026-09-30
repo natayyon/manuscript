@@ -48,8 +48,8 @@ h1 {
 	font-family:"Bebas Neue";
 	color:var(--color-base);
 	font-size: 7rem;
-	line-height: 0.9em;
-	font-weight:500;
+	line-height: 8rem;
+	font-weight:700;
 
 }
 
@@ -124,6 +124,7 @@ em{
 	font-size: 5rem;
 	text-align: right;
 	line-height: 0.9em;
+	font-weight:500;
 }
 
 .author.time.heading{
@@ -166,8 +167,8 @@ em{
 
 .bigcalloutquote p{
 	max-width: var(--quote-width);
-
 }
+
 .bigcalloutquotepink{
 	color: var(--color-brand);
 	font-family: Inter;
@@ -179,15 +180,15 @@ em{
 
 }
 
-.bgcolor{
+.responsebgcolor{
 	background-color:var(--color-base);
 	padding-block-start: 3rem;
-	padding-inline-end: 3rem;
 	padding-block-end: 1rem;
 	padding-inline-start: 3rem;
+	padding-inline-end: 3rem;
 }
 
-.response{
+.responsecolor{
 	color: var(--color-brand);
 }
 
