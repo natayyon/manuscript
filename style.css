@@ -15,11 +15,13 @@ html{
 	--font-body: Instrument Sans,Arial, Helvetica, sans-serif;
 	--font-display: var(--font-body);
 
+		/* weights carried through  */
 	--font-weight-l:300;
 	--font-weight-m:500;
 	--font-weight-b:700;
 	--font-weight-bh:800;
 
+	/* spacing  */
 	--size-sm:1rem;
 	--size-shmd:2rem;
 	--size-md:3rem;
@@ -27,13 +29,13 @@ html{
 
 	--font-size-body:1.1rem;
 	--font-size-h1:7rem;
-	--font-size-h2: 8rem;
+	--font-size-h2: 7rem;
 	--font-size-h3:5rem;
 	--font-size-number:7rem;
 	--font-size-quote:4rem;
 	--font-size-small-quote:3rem;
 
-	--body-width:80ch;
+	--body-width:70ch;
 	--quote-width:calc(0.5 * var(--body-width));
 
 	--h1-line-height:8rem;
@@ -77,7 +79,7 @@ section{
 h1 {
 	font-family:var(--font-heading);
 	color:var(--color-base);
-	font-size: var(--font-heading);
+	font-size: var(--font-size-h1);
 	line-height: var(--h1-line-height);
 	font-weight:var(--font-weight-b);
 	min-inline-size:var(--body-width);
@@ -105,13 +107,17 @@ h3 {
 h3::before{
 	display: block;
 	content:"0"counter(mycounter);
-	color: var(--color-base);
+	color: var(--color-black);
 	font-size:var(--font-size-number);
 	font-weight: var(--font-weight-b);
 	padding-block-start: .5rem;
 	line-height: 7rem;
 	counter-increment: mycounter;
 }
+/* I added this with the help of a tutor!
+Wanted it to start with 06 and made it this way so i did not have to keep adding numbers
+The Psuedo Element was only targeting the first charater and there were two
+The reason I added 01 is because it kind of looks like a mascot which is what the reading talks about and creates structure. */
 
 h2 span{
 	display:block;
@@ -124,7 +130,7 @@ p{
 	line-height:var(--body-line-height);
 }
 
-
+/* I used it for the title and subtitle because I wanted each phrase to become a separate visual object. */
 span{
 	display:block;
 	margin-block: var(--size-sm);
@@ -169,9 +175,9 @@ a:hover{
 .authortimeheading{
 	/* display: inline-block; */
 	border-style:solid;
-	margin-block-start:.5rem;
-	margin-block-end:.5rem;
-	color: var(--base-color);
+	margin-block: .5rem;
+	margin-inline-start:0;
+	color: var(--color-base);
 	font-weight:var(--font-weight-m);
 }
 
@@ -182,24 +188,26 @@ a:hover{
 	margin-block-start: var(--size-md);
 	color:var(--base-color);
 	font-family:var(--font-heading);
-	line-height:var(--wordladder-line-height);
-}
+	line-height: var(--wordladder-line-height);}
 
 .wordladder:nth-of-type(1){
+	margin-block-start: var(--size-md);
 	font-size: var(--font-size-h3);
 	font-weight:var(--font-weight-l);
+	margin-block-end:2.5rem;
+
 }
 
 .wordladder:nth-of-type(2) {
 	margin-block-start:calc(var(--size-sm)*-0.5);
-	font-size: var(--font-size-wordladder-2);
+	font-size: var(--font-size-h1);
 	font-weight:var(--font-weight-b);
 }
 
 .wordladder:nth-of-type(3) {
-	margin-bottom:var(--size-md);
-	font-size:var(--font-weight-b);
-	font-weight:var(--font-size-wordladder-3);
+	margin-block-end:var(--size-md);
+	font-size:var(--font-size-h2);
+	font-weight:var(--font-weight-bh);
 }
 
 /* QUOTES */
@@ -240,8 +248,7 @@ a:hover{
 .responsebgcolor{
 	padding-block-start:var(--size-md);
 	padding-block-end:var(--size-sm);
-	padding-inline-start:var(--size-sm);
-	padding-inline-end:var(--size-md);
+	padding-inline:var(--size-lr);
 	background-color:var(--color-base);
 }
 
