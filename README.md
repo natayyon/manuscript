@@ -4,9 +4,10 @@ https://www.markdownguide.org/cheat-sheet/
 -->
 
 # Project 1: *Manuscript*
+This website is based on the article “Ronald McDonald Ollie Dos and Don’ts: What Mascots Can Teach Us About Branding” by Other Means. The article explores how mascots can change over time while still keeping a recognizable identity. It compares mascots to traditional brand guidelines and argues that flexible identities can better represent the complexity of cultural institutions.
 
-Demo/template for our [first projects](https://typography-interaction-2627.github.io/project/1/).
+I organized the article into sections with numbered headings and navigation links. I used Bebas Neue for the large headings to create a bold, branded feeling, and Instrument Sans for the body text so the longer paragraphs remain readable.
 
-> **Students will choose a seminal design text from [readings.design](https://readings.design), read and respond to it, and typeset their selection and reply together.**
->
-> The goal of this project is to hone your basic skills in typography, focusing on expression, hierarchy, and form appropriate to a work. You will do this through exploration, trial and error, and responding to critical feedback. And then you will execute this typesetting in code, as a web page
+The light pink background creates a playful connection to mascots and commercial branding. Black keeps the main text clear, while purple highlights important ideas from the article. I also created a word ladder using “design,” “obscures,” and “complexity” to visually represent how design can make complicated systems seem simple.
+
+At the end, I included my own response in a separate section with a black background and pink text. The overall design uses a consistent system, but the typography, spacing, and color relationships shift throughout the page to reflect the article’s argument that branding should remain recognizable while continuing to evolve.

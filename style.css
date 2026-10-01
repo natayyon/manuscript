@@ -68,9 +68,9 @@ section{
 	max-inline-size:var(--body-width);
 	margin-block-start:var(--size-md);
 	margin-inline:auto;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 0;
+	border-inline-start: 0;
+	border-inline-end: 0;
+	border-block-end: 0;
 	/* border-style:solid; */
 }
 
