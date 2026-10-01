@@ -1,5 +1,6 @@
 html{
-	font-family: Inter,Arial, Helvetica, sans-serif;
+	font-family: Instrument Sans
+,Arial, Helvetica, sans-serif;
 	font-size: 1.1rem;
 	background-color: lightpink;
 	counter-reset:mycounter;
@@ -10,7 +11,7 @@ html{
 	--color-accent:purple;
 	--color-bg:lightpink;
 
-	--font-body:Inter,Arial, Helvetica, sans-serif;
+	--font-body: Instrument Sans,Arial, Helvetica, sans-serif;
 	--font-display: var(--font-body);
 	--font-heading:'Bebas Neue';
 
@@ -21,6 +22,7 @@ html{
 
 	--body-width:90ch;
 	--quote-width:calc(0.5 * var(--body-width));
+
 
 	/*font/color base*/
 	color:var(--color-base);
@@ -54,10 +56,18 @@ h1 {
 	font-size: 7rem;
 	line-height: 8rem;
 	font-weight:700;
-
 }
 
 h2 {
+	line-height: 5rem;
+	font-family:"Bebas Neue";
+	color:var(--color-base);
+	font-size: 7rem;
+	font-weight:700;
+}
+
+
+h3 {
 	font-size: 4rem;
 	font-family: "Bebas Neue";
 	color: var(--color-base);
@@ -65,7 +75,7 @@ h2 {
 
 }
 
-h2::before{
+h3::before{
 	display: block;
 	counter-increment: mycounter;
 	content:"0"counter(mycounter);
@@ -73,10 +83,12 @@ h2::before{
 	font-size: 7rem;
 	font-weight: bold;
 	padding-block-start: .5rem;
+
 }
 
 h2 span{
 	display:block;
+	line-height:5rem;
 
 }
 
@@ -100,13 +112,14 @@ a:hover{
 p{
 	line-height: 1.5rem;
 	margin-block: 1rem;
+
 	}
 
 
 span{
 	display:block;
 	margin-block: 1rem;
-	line-height: 0.9em;
+	line-height: 5rem;
 
 }
 
@@ -119,6 +132,7 @@ em{
 	font-weight:800;
 }
 
+
 #smallcalloutquote{
 	padding: 3rem;
 	font-style: italic;
@@ -127,11 +141,11 @@ em{
 .title2{
 	font-size: 5rem;
 	text-align: right;
-	line-height: 0.9em;
+	line-height: 3.5rem;
 	font-weight:500;
 }
 
-.author.time.heading{
+.authortimeheading{
 	border-style:solid;
 	color: var(--base-color);
 	font-weight:450;
@@ -140,6 +154,15 @@ em{
 	display: inline-block;
 
 }
+
+/* .authortimeheading2{
+	border-style:solid;
+	color: var(--base-color);
+	font-weight:450;
+
+	display: inline-block;
+} */
+
 
 .wordladder1{
 	font-family: "Bebas Neue";
@@ -165,7 +188,8 @@ em{
 }
 
 .bigcalloutquote{
-	font-family: Inter;
+	font-family: Instrument Sans
+;
 	font-size: 4rem;
 	line-height: 4rem;
 	padding: 3rem;
@@ -179,7 +203,7 @@ em{
 
 .bigcalloutquotepink{
 	color: var(--color-brand);
-	font-family: Inter;
+	font-family: Instrument Sans;
 	font-size: 3rem;
 	line-height: 3rem;
 	padding: 3rem;
@@ -199,6 +223,7 @@ em{
 .responsecolor{
 	color: var(--color-brand);
 }
+
 
 /* span{
 	line-height: 0.9em;
